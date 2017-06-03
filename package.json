@@ -1,0 +1,25 @@
+{
+  "name": "Magic-Mirror-Module-Echo",
+  "version": "0.0.1",
+  "description": "Facial recognition and module swapping for the Magic Mirror.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iverasp/MMM-Echo"
+  },
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "Facial recognition",
+    "module"
+  ],
+  "author": "Iver Egge",
+  "contributors": "https://github.com/paviro/MMM-Facial-Recognition/graphs/contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iverasp/MMM-Echo/issues"
+  },
+  "homepage": "https://github.com/iverasp/MMM-Echo",
+  "dependencies": {
+    "python-shell": "latest"
+    }
+}
