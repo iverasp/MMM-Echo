@@ -39,3 +39,6 @@ The classes are either
     "user" (e.g. "Alice"), to be shown only for the specified user
     "everyone", to be shown to everyone
     "default", to be shown to strangers
+
+Now get a good image of your face from the front and place it in the "users"-folder.
+
