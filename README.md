@@ -1,5 +1,9 @@
 ## MMM-Echo
 
+This is an extension for [MagicMirror](https://github.com/MichMich/MagicMirror). It recognizes the face of a user provided by a camera stream, and hides/shows MagicMirror extensions based on the configuration.
+
+### Acknowledgment
+
 Face detection based on Adam Geitgeys Python module [face_recognition](https://github.com/ageitgey/face_recognition).
 
 MagicMirror extension based on [MMM-Facial-Recognition](https://github.com/paviro/MMM-Facial-Recognition).
@@ -13,6 +17,14 @@ MMM-Facial-Recognition is based on OpenCV and needs training from a large set of
 ![It uses data](https://imgs.xkcd.com/comics/machine_learning.png)
 
 Explained in [this blog post by Adam Geitgey](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78).
+
+### How well does it work?
+
+It tells me and my buddies apart. It detects me with and without glasses, with long hair and short hair, and with various facial expressions.
+
+If I smile like a drunken idiot it does not work. I rarely look like that so I do not consider it an issue.
+
+It does not work well on children, apparently.
 
 ## Setup
 
