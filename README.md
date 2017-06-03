@@ -26,7 +26,7 @@ Append the following to MagicMirrors config.js
         }
     }
 
-Then for the rest of the extensions in config.js, configure a class for the visiblity of the module
+Then for the rest of the extensions in config.js, configure a class that designates the visibility of the module
 
     {
         module: "MMM-Example",
@@ -39,4 +39,3 @@ The classes are either
     "user" (e.g. "Alice"), to be shown only for the specified user
     "everyone", to be shown to everyone
     "default", to be shown to strangers
-

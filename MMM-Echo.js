@@ -2,15 +2,15 @@
 Module.register('MMM-Echo',{
 
 	defaults: {
-		// recognition intervall in seconds (smaller number = faster but CPU intens!)
+		// recognition intervall in seconds (scale this based on desired CPU usage)
 		interval: 1,
-		// Logout delay after last recognition so that a user does not get instantly logged out if he turns away from the mirror for a few seconds
+		// Logout delay after last recognition so that a user does not get instantly logged out when out of cameras field of vision
 		logoutDelay: 15,
-		// Array with usernames (copy and paste from training script)
+		// Array with usernames
 		users: [],
-		//Module set used for strangers and if no user is detected
+		// Module set used for strangers and if no user is detected
 		defaultClass: "default",
-		//Set of modules which should be shown for every user
+		// Set of modules which should be shown for every user
 		everyoneClass: "everyone",
 		// Boolean to toggle welcomeMessage
 		welcomeMessage: true
