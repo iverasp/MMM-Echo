@@ -14,6 +14,17 @@ MMM-Facial-Recognition is based on OpenCV and needs training from a large set of
 
 Explained in [this blog post by Adam Geitgey](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78).
 
+## Setup
+
+Go to MagicMirror root folder, then
+
+    cd modules
+    git clone https://github.com/iverasp/MMM-Echo.git
+    cd MMM-Echo
+    npm install
+
+OpenCV is needed to get the webcam stream. It should be installed with Python support.
+
 ## Usage
 
 Similarly to MMM-Facial-Recognition.
@@ -47,3 +58,7 @@ The classes are either
     "default", to be shown to strangers
 
 Now get a good image of your face from the front and place it in the "users"-folder.
+
+## License
+
+Needs to inherit the license from face_recgnition and MMM-Facial-Recognition, which is MIT.
