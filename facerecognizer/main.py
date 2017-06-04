@@ -7,7 +7,6 @@ import time
 import signal
 import face_recognition
 import cv2
-import cv2.cv as cv
 import config
 
 
@@ -24,7 +23,6 @@ def shutdown(self, signum):
     to_node('status', 'Shutdown: Cleaning up camera...')
     # Release handle to the webcam
     video_capture.release()
-    cv2.destroyAllWindows()
     quit()
 
 signal.signal(signal.SIGINT, shutdown)
@@ -39,8 +37,10 @@ last_seen_timestamp = time.time()
 logged_in = False
 encodings = []
 
+path = 'modules/MMM-Echo/users/'
+
 for user in config.get('users'):
-    image = face_recognition.load_image_file(user + '.jpg')
+    image = face_recognition.load_image_file(path + user + '.jpg')
     encodings.append(face_recognition.face_encodings(image)[0])
 
 # Initialize some variables

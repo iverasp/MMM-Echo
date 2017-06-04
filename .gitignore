@@ -1,0 +1,4 @@
+*.pyc
+*.swp
+node_modules/*
+users/*.jpg
